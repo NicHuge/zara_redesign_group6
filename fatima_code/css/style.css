@@ -176,6 +176,7 @@
   .card-image {
     flex: 1 0 auto;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .card-image img {
@@ -195,6 +196,11 @@
     transition: opacity 0.2s ease-in-out;
     text-align: center;
   }
+  .add_link {
+    color: white;
+    text-decoration: none;
+  }
+
   
   .card:hover .add-to-cart {
     opacity: 1;
