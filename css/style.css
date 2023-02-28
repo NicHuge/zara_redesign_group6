@@ -1,0 +1,165 @@
+/* Global Navigation */
+.global-nav-container {
+  display: flex;
+  margin-inline: 35px;
+}
+
+.logo {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.global-section {
+  flex-grow: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  padding-inline: 8px;
+  cursor: pointer;
+}
+.icon:hover {
+  filter: url('#id-of-your-filter');
+}
+/* Icons */
+.help-button {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  border: solid 2px black;
+  padding-block: 2px;
+  padding-inline: 4px;
+}
+.help-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 80%;
+}
+/* Navbar container */
+.navbar-container {
+  overflow: hidden;
+  background-color: white;
+  margin-right: 35px;
+  margin-top: 16px;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar-container .page-link {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding-inline: 16px;
+  padding-block: 8px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropdown-link {
+  font-size: 16px;
+  background-color: white;
+  font-style: inherit;
+  border: none;
+  outline: none;
+  padding-inline: 16px;
+  padding-block: 8px;
+  cursor: pointer;
+  /* background-color: inherit; */
+  /* font-family: inherit; */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown:hover .dropdown-link {
+  border-top: solid 2px black;
+}
+
+.page-link:hover {
+  border-top: solid 2px black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+  background-color: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content .items-link {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content .items-link:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: auto;
+  margin-inline: 35px;
+  position: relative;
+}
+/* Image */
+/* CTA button */
+.cta {
+  all: unset;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #000000;
+  opacity: 80%;
+  outline: none;
+  color: white;
+  float: right;
+  position: relative;
+	bottom: 70px;
+  right: 48px;
+  padding-inline: 24px;
+  padding-block: 8px;
+}
+.cta:hover {
+  outline: solid 2px black;
+  background-color: transparent;
+  color: black;
+}
+/* Hero Navbar */
+.hero-nav .collection-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: inherit;
+  padding-inline: 24px;
+  padding-block: 8px;
+}
+.hero-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  justify-content: center;
+  margin-top: 0px;
+}
+#example {
+  border-top: solid 2px black;
+}

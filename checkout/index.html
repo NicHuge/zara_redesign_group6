@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zara</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="../checkout/css/checkout.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/54f334f98e.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Global Navigation -->
+    <nav>
+        <div class="global-nav-container">
+            <div class="logo">
+                <img src="../images/zara-logo-1.svg" alt="" width="150px">
+            </div>
+            <ul class="global-section">
+                <li class="icons"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                    </svg></li>
+                <li class="icons"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                    </svg></li>
+                <li class="icons"><a class="help-button" href="#">Help</a></li>
+            </ul>
+        </div>
+        <!-- Cart Navigation -->
+        <div class="cart-nav">
+            <a class="bag-link" href="#section">Shopping Bag</a>
+            <a class="fav-link" href="#section">Favorites</a>
+        </div>
+        <!-- Shopping Bag -->
+        <section class="cart-container">
+
+            <!-- Image -->
+            <div class="image"><img src="../images/top.png" alt="Item Image" style="width: auto; height: 425px;"></div>
+
+            <!-- Details -->
+            <div class="item-details">
+
+                <h3 class="title">TRF DENIM TOP</h3>
+                <h3 class="price">$39. 00 USD</h3>
+
+                <div class="color">
+                    <h3 class="color">Color: Navy Blue</h3>
+                    <div class="color-swatch" style="background-color: red;"></div>
+                    <div class="color-swatch" style="background-color: green;"></div>
+                    <div class="color-swatch1" style="background-color: blue;"></div>
+                    <button class="color-button"><span class="plus-sign"></span></button>
+                </div>
+
+                <div class="size">Medium
+                    <div><img src="../images/noun-arrow-2601679.svg"  width="24" height="24"></div>
+                </div>
+
+                <div class="quantity">
+                    <span class="quantity-toggle-label">Quantity:</span>
+
+                    <div class="quantity-toggle">
+                        <button class="quantity-toggle__minus">-</button>
+                        <span class="quantity-toggle__label">1</span>
+                        <button class="quantity-toggle__plus">+</button>
+                    </div>
+
+                </div>
+
+                <div class="remove">Remove</div>
+
+            </div>
+            <!-- Checkout Total -->
+            <div class="checkout-container">
+
+                <div class="promo">
+                    <p class="enter-code">Enter Promo Code</p>
+                    <button class="submit">Submit</button>
+                </div>
+
+                <h3 class="title">Order Details</h3>
+
+                <div class="subtotal-container">
+                    <div class="cat">
+                        <h4 class="total">Items:</h4>
+                        <h4 class="total">$39. 00 USD</h4>
+                    </div>
+
+                    <div class="cat">
+                        <h4 class="total">Shipping:</h4>
+                        <h4 class="total">$10. 00 USD</h4>
+                    </div>
+                </div>
+                <div class="cat">
+                    <h4 class="total">Total:</h4>
+                    <h4 class="total">$49.00 USD</h4>
+                </div>
+
+                <a class="checkout">Checkout</a>
+                <a class="continue">Continue Shopping</a>
+
+            </div>
+        </section>
+</body>
+
+</html>
